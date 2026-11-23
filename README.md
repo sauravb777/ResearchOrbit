@@ -4,7 +4,7 @@ ResearchOrbit is an AI research assistant. It takes you from a rough idea to a c
 
 I designed and built the whole system end to end: retrieval, multi-agent orchestration, a FastAPI backend, and a Next.js frontend.
 
-**Live app:** [researchorbit.vercel.app](https://researchorbit.vercel.app/) (Best Viewed on PC) 
+**Live app:** [researchorbit.vercel.app](https://researchorbit.vercel.app/) (Best Viewed on PC) **[Refresh the image if it gets stuck for too long]**
 
 > **Please read before using the app**
 >
