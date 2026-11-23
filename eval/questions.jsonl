@@ -1,0 +1,5 @@
+{"question": "How does retrieval-augmented generation reduce hallucination in large language models?", "expected_terms": ["retrieval", "hallucination", "generation"]}
+{"question": "Compare LoRA and full fine-tuning for adapting large language models", "expected_terms": ["lora", "fine-tuning", "low-rank"]}
+{"question": "What are the main approaches to evaluating factual consistency in text summarization?", "expected_terms": ["factual", "summarization", "consistency"]}
+{"question": "State of the art in efficient attention mechanisms for long-context transformers", "expected_terms": ["attention", "long", "context"]}
+{"question": "Research gaps in reinforcement learning from human feedback", "expected_terms": ["reinforcement", "human feedback", "reward"]}

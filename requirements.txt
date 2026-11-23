@@ -1,0 +1,30 @@
+# Editable install of the researchpilot package (src/ layout).
+-e .
+
+requests>=2.31
+pydantic>=2.5
+python-dotenv>=1.0
+pypdf>=4.0
+PyMuPDF>=1.24
+python-docx>=1.1
+reportlab>=4.0
+
+# UI
+streamlit>=1.35
+
+# Dev / test
+pytest>=8.0
+httpx>=0.23
+
+# Optional Windows PDF conversion through Microsoft Word (LibreOffice is preferred when available).
+pywin32>=306; platform_system == "Windows"
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+
+# Agent orchestration (LangGraph is used when installed; pipeline has a safe fallback)
+langgraph>=1.2.12,<1.3
+langchain-core>=1.6.5,<1.7
+
+# LangChain 1.x agent primitives. LangGraph remains the deterministic workflow/state layer.
+langchain>=1.4.2,<1.5

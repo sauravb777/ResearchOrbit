@@ -1,0 +1,10 @@
+{
+  "name": "researchorbit-release",
+  "private": true,
+  "version": "93.0.0",
+  "scripts": {
+    "setup:frontend": "npm --prefix frontend-next install",
+    "dev": "npm --prefix frontend-next run dev",
+    "build": "npm --prefix frontend-next run build"
+  }
+}

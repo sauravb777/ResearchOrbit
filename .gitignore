@@ -1,0 +1,31 @@
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+data/
+reports/
+*.egg-info/
+.pytest_cache/
+.streamlit/secrets.toml
+.DS_Store
+build/
+dist/
+
+# Generated evaluation outputs
+eval/results.json
+eval/results.md
+
+# Environment files
+.env.*
+!.env.example
+
+# Frontend dependencies and build output
+node_modules/
+.next/
+out/
+
+# Local databases
+*.db
+*.sqlite
+*.sqlite3
